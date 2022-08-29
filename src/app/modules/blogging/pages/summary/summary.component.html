@@ -1,0 +1,191 @@
+<div class="row my-5 mx-0">
+  <div class="offset-1 col-10">
+    <div class="row">
+      <!-- <div class="col-lg-7 col-12 p-0 mb-4">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <span class="body-header-text">Новини</span>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ul class="m-0 fs-18">
+                  <li>
+                    <a href=""
+                      >Біля львівської Ратуші підняли пластовий прапор</a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      >Банки почали автоматично стягувати борги з українців</a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      >Директора фірми Брезіцьких посадили під домашній арешт
+                      через привласнення 2 млн грн</a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      >Актуальна статистика вакцинації проти Covid-19 в
+                      Україні</a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      >Під час пожежі у львівській квартирі загинула її
+                      власниця</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <span class="body-header-text">Подорожі</span>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ul class="m-0 fs-18">
+                  <li>
+                    <a href="">Заповідник "Янчин". Дніпровські Фортеці</a>
+                  </li>
+                  <li>
+                    <a href="">Українська Ісландія. Василівський Рубіж</a>
+                  </li>
+                  <li><a href="">Гора Тохота. Урочище Скеля</a></li>
+                  <li>
+                    <a href="">Палаци і парки північного поділля. Первоцвіти</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <span class="body-header-text">Книги</span>
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ul class="m-0 fs-18">
+                  <li><a href="">Тамара Горіха Зерня, «Доця»</a></li>
+                  <li><a href="">Тіна Гальянова, «Химеросховище»</a></li>
+                  <li><a href="">Тамара Горіха Зерня, «Доця»</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="col-lg-6 col-12 p-0 mb-4">
+        <post [post]="summaryPost"></post>
+      </div>
+      <div
+        class="col-lg-5 offset-1 col-12 p-0 mb-4 d-flex flex-column justify-content-center"
+      >
+        <h1 class="upper-background-text background-text fs-64">
+          Найпопулярніший
+        </h1>
+        <h1 class="background-text fs-102">пост:</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+<!-- SECTION -->
+
+<div class="row my-5 mx-0">
+  <div class="col-10 offset-1 row">
+    <div class="col-lg-6 p-0 mb-4 d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex flex-column align-items-end width-fit">
+        <h1 class="upper-background-text background-text fs-64">Топ</h1>
+        <h1 class="background-text fs-102">Зарплат:</h1>
+      </div>
+    </div>
+    <div class="col-lg-5 offset-1 px-0">
+      <table class="table table-bordered salary-table">
+        <thead>
+          <tr>
+            <th scope="col">№</th>
+            <th scope="col">Країна</th>
+            <th scope="col">Зарплати</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Люксембург <img class="flag-image pl-2" src="./../../../../../assets/flag1.png"></td>
+            <td>4089 $</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Норвегія <img class="flag-image pl-2" src="./../../../../../assets/flag2.png"></td>
+            <td>3678 $</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Австрія <img class="flag-image pl-2" src="./../../../../../assets/flag3.png"></td>
+            <td>3437 $</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>США <img class="flag-image pl-2" src="./../../../../../assets/flag4.png"></td>
+            <td>3263 $</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Велика Британія <img class="flag-image pl-2" src="./../../../../../assets/flag5.png"></td>
+            <td>3065 $</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION -->

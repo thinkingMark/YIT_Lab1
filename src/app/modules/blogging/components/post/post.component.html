@@ -1,0 +1,17 @@
+<mat-card class="post-card">
+    <mat-card-header>
+      <div mat-card-avatar class="post-header-image" style='background-image: url("{{ post.author.image }}");'></div>
+      <mat-card-title>{{ post.author.name }}</mat-card-title>
+      <mat-card-subtitle>{{ post.date }}</mat-card-subtitle>
+    </mat-card-header>
+      <img mat-card-image src="{{ post.image }}" class="post-image" alt="Photo of a Shiba Inu">
+    <mat-card-content class="post-card-content">
+      <p>
+        {{ post.shortDescription }}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>

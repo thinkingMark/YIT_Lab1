@@ -1,0 +1,186 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+@font-face {
+    font-family: Gilroy;
+    src: url(./assets/fonts/Gilroy-Regular.woff) format("woff");
+  }
+
+/****************************************** HEADER ***************************************/
+.btn-link {
+    text-decoration: none;
+}
+
+header {
+    background-color: #f50057;
+}
+
+.header-block {
+    min-height: 20rem;
+}
+.header-image {
+    max-width: 15rem;
+}
+
+.header-text {
+    font-family: "Oswald", sans-serif;
+    font-weight: 800;
+    font-size: 72px;
+    color: #fff;
+}
+.body-header-text {
+    color: black;
+    font-size: 32px;
+    padding-right: 4rem;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+}
+
+.image-block {
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .image-block {
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .header-link {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .image-block {
+        justify-content: flex-end;
+    }
+}
+/**********************************************************************************************/
+
+/******************************************* MAIN ********************************************/
+.table-block {
+    border: 1px solid #dee2e6;
+    border-radius: 1%;
+}
+
+.table-body-text {
+    font-size: 18px;
+}
+
+.table-head {
+    padding: 0.7rem 1rem 0.7rem 1rem;
+}
+
+.table > :not(:last-child) > :last-child > * {
+    border-bottom-color: #f0f0f0;
+}
+.float-right {
+    float: right;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.table-head {
+    padding: 16px 20px 16px 20px !important;
+}
+/**********************************************************************************************/
+
+/****************************************** GENERAL ******************************************/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+th {
+    padding: 0.7rem 0rem 0.7rem 0rem;
+}
+
+img {
+    max-width: calc(100% + 32px);
+}
+
+.btn-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.mr-5rem {
+    margin-right: 5rem;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+td {
+    padding: 16px 20px 16px 20px !important;
+}
+
+body {
+    margin: 0;
+}
+
+.post-header-image {
+    background-size: cover;
+}
+
+.post-card {
+    height: 32rem;
+}
+
+.post-image {
+    max-height: 18rem;
+}
+
+.post-card-content {
+    max-height: 3.75rem;
+    overflow-y: hidden;
+}
+
+.mr-7rem{
+    margin-right: 7rem;
+}
+
+.mr-6rem{
+    margin-right: 6rem;
+}
+
+.background-text{
+    overflow-wrap: anywhere;
+    font-weight: bold !important;
+    font-family: "Oswald", sans-serif !important;
+    text-transform: uppercase;
+    line-height: 0.9 !important;
+    margin: 0 !important;
+}
+
+.fs-64{
+    font-size: 64px !important;
+}
+
+.fs-102{
+    font-size: 102px !important;
+}
+
+.upper-background-text{
+    color: #f50057;
+}
+
+.salary-table{
+    font-family: 'Gilroy', sans-serif;
+    font-size: 22px;
+}
+
+.width-fit{
+    width: fit-content;
+}
+
+.flag-image{
+    max-width: 30px;
+}
+
+/**********************************************************************************************/
