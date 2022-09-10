@@ -11,12 +11,10 @@ export class SummaryComponent implements OnInit {
 
   constructor(private postService : PostService) { }
 
-  summaryPost : Post;
+  public summaryPost : Post;
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
     this.summaryPost = this.postService.getRandomPost();
   }
-
-
 
 }
